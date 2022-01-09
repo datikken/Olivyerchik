@@ -12,13 +12,13 @@
                 </div>
                 <div class="slider-video-section wow fadeInUp" data-wow-duration="1.5s" data-wow-delay=".4s">
                     <div class="slider-obutton">
-                        <button class="btn">Order Now</button>
+                        <button class="btn">DOWNLOAD APP</button>
                     </div>
                     <div class="slider-pbutton">
-                        <div class="play-button" data-toggle="modal" data-target="#exampleModalCenter">
-                            <img src="images/silders/paly-icon.png" alt="the Girl on the beach - best destination Image">
-                        </div>
-                        <p class="mb-0 ml-4">Watch Our Story</p>
+{{--                        <div class="play-button" data-toggle="modal" data-target="#exampleModalCenter">--}}
+{{--                            <img src="images/silders/paly-icon.png" alt="the Girl on the beach - best destination Image">--}}
+{{--                        </div>--}}
+{{--                        <p class="mb-0 ml-4">Watch Our Story</p>--}}
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
