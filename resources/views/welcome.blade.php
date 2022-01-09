@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Olivyerchik</title>
+        <title>CAFE 360</title>
 
         @include('styles')
     </head>
