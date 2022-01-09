@@ -1,20 +1,33 @@
+import "./bx-slider/jquery.bxslider"
+import "./bx-slider/jquery.fitvids"
+import "./bx-slider/jquery.easing.1.3"
+
+import "./tools/sanitizer"
+import "./ajax-jquery.min"
+import "./alert"
+import "./app"
+import "./bootstrap.min"
+import "./button"
+import "./carousel"
+import "./collapse"
+import "./custom"
+import "./dropdown"
+import "./jquery"
+import "./jquery-3.4.1.slim.min"
+import "./modal"
+import "./popover"
+import "./scrollspy"
+import "./tab"
+import "./toast"
+import "./tooltip"
+import "./util"
+import "./wow.min"
+
 window._ = require('lodash');
-
-/**
- * We'll load the axios HTTP library which allows us to easily issue requests
- * to our Laravel back-end. This library automatically handles sending the
- * CSRF token as a header based on the value of the "XSRF" token cookie.
- */
-
 window.axios = require('axios');
-
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
-/**
- * Echo exposes an expressive API for subscribing to channels and listening
- * for events that are broadcast by Laravel. Echo and event broadcasting
- * allows your team to easily build robust real-time web applications.
- */
+// global.$ = global.jQuery = require('jquery');
 
 // import Echo from 'laravel-echo';
 

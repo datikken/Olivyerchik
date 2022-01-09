@@ -522,7 +522,7 @@ svg #cap {
 /************************ 7. slider content ***********************/
 
 .home-slider {
-    background-image: url(/public/images/background-shape/bg-shape1.png);
+    background-image: url(/images/background-shape/bg-shape1.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 400px 0 160px 0;
