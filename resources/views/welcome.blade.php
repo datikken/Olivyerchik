@@ -11,7 +11,7 @@
     <body class="antialiased">
         @include('components.preloader')
 
-    <div id="wrap">
+    <div id="main">
         @include('components.header')
         @include('components.sliderComponent')
         @include('components.specialities')
@@ -22,11 +22,14 @@
         @include('components.download')
     </div>
 
-    @include('components.footer')
+        @include('components.footer')
+        @include('components.notifications')
 
     <span class="scroll-top" data-scroll="up">
     <i class="fas fa-long-arrow-alt-up"></i>
 </span>
+
     @include('scripts')
+
     </body>
 </html>

@@ -11,9 +11,10 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-12 col-md-10 col-lg-6">
-                <form class="email-form">
+                <form class="email-form" method="post" action="{{ url('store-form-contact') }}">
+                    @csrf
                     <div class="form-group position-relative mb-0">
-                        <input type="email" class="form-control" placeholder="Your Email Id">
+                        <input type="email" class="form-control" placeholder="Your Email Id" id="email" name="email">
                         <button type="submit" class="btn btn-primary email-form-button">SEND</button>
                     </div>
                 </form>

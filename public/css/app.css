@@ -19393,6 +19393,17 @@ h6 {
         font-size: 30px;
         line-height: 40px;
     }
+}.alert {
+    cursor: pointer;    
+}.alert-success, .alert-danger {
+    position: fixed;
+    top: 50%;
+    z-index: 99999;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}.alert-p {
+    margin: 0;
+    font-size: 36px;
+    padding: 1rem;
 }
-
 
