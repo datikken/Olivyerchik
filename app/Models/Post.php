@@ -6,20 +6,17 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Tags\HasTags;
 
-class Recipe extends Model
+class Post extends Model
 {
     use HasFactory, HasTags;
 
-    protected $table = 'recipes';
+    protected $table = 'posts';
 
     protected $fillable = [
-        'heading',
-        'subheading',
-        'recipe-intro',
-        'recipe-detail',
-        'recipe-nutrition',
-        'recipe-steps',
-        'ingred-list'
+        'title',
+        'description',
+        'user_id',
+        'recipe_id',
     ];
 
     public function images()

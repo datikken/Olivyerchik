@@ -22,12 +22,7 @@ class CreateRecipesTable extends Migration
             $table->json('recipe-nutrition')->nullable();
             $table->longText('recipe-steps')->nullable();
             $table->longText('ingred-list')->nullable();
-            $table->unsignedBigInteger('image_id')->nullable();
-            $table->unsignedBigInteger('video_id')->nullable();
             $table->timestamps();
-
-            $table->foreign('image_id')->references('id')->on('images');
-            $table->foreign('video_id')->references('id')->on('videos');
         });
     }
 
