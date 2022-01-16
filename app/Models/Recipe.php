@@ -6,6 +6,43 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Tags\HasTags;
 
+/**
+ * @SWG\Definition(
+ *  definition="Recipe",
+ *  @SWG\Property(
+ *      property="id",
+ *      type="integer"
+ *  ),
+ *  @SWG\Property(
+ *      property="heading",
+ *      type="string"
+ *  ),
+ *  @SWG\Property(
+ *      property="subheading",
+ *      type="string"
+ *  ),
+ *  @SWG\Property(
+ *      property="recipe-intro",
+ *      type="string"
+ *  ),
+ *  @SWG\Property(
+ *      property="recipe-detail",
+ *      type="string"
+ *  ),
+ *  @SWG\Property(
+ *      property="recipe-nutrition",
+ *      type="string"
+ *  ),
+ *  @SWG\Property(
+ *      property="recipe-steps",
+ *      type="string"
+ *  ),
+ *  @SWG\Property(
+ *      property="ingred-list",
+ *      type="string"
+ *  ),
+ * )
+ */
 class Recipe extends Model
 {
     use HasFactory, HasTags;
