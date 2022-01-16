@@ -1,16 +1,16 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "My First API",
+        "title": "Recipes API",
         "version": "0.1"
     },
     "paths": {
         "/api/recipes": {
             "get": {
-                "description": "Get all recipes we got",
+                "description": "Get all recipes we got.",
                 "responses": {
                     "default": {
-                        "description": "Recipes page"
+                        "description": "Recipes array"
                     }
                 }
             }

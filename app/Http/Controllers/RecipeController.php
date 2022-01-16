@@ -7,14 +7,13 @@ use App\Models\Recipe;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
-
 class RecipeController extends Controller
 {
     /**
      * @OA\Get(
      *     path="/api/recipes",
      *     description="Get all recipes we got.",
-     *     @OA\Response(response="default", description="Recipes page")
+     *     @OA\Response(response="default", description="Recipes array")
      * )
      */
     /**
